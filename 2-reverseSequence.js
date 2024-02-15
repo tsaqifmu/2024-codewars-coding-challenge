@@ -4,6 +4,7 @@
 
 // Build a function that returns an array of integers from n to 1 where n>0
 
+//* Solution 1
 const reverseSeq = (n) => [...Array(n)].map((_, i) => n - i);
 
-console.log(reverseSeq(2));
+console.log(reverseSeq(5));
