@@ -20,6 +20,7 @@
 // const feast = (beast, dish) =>
 //   beast[0] === dish[0] && beast[beast.length - 1] === dish[dish.length - 1];
 
+//* Solution 1
 const feast = (beast, dish) =>
   beast[0] === dish[0] && beast.at(-1) === dish.at(-1);
 

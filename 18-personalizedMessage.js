@@ -5,6 +5,7 @@
 // Create a function that gives a personalized greeting.
 // This function takes two parameters: name and owner.
 
+//* Solution 1
 const greet = (name, owner) => (owner === name ? "Hello boss" : "Hello guest");
 
 console.log(greet("Greg", "Daniel"));
